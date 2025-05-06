@@ -1,9 +1,9 @@
-## 📰 Fake News Detection using Machine Learning
+## Fake News Detection using Machine Learning
 
-### 📌 Overview
+###  Overview
 This project was developed as a **mini project during my 6th semester**, with the goal of detecting fake news using various machine learning models. The primary objective was to build a system that can effectively **differentiate between real and fake news articles** with high accuracy.
 
-### 🔑 Key Features
+###  Key Features
 
 - **Data Preprocessing**
   - Applied techniques such as **tokenization**, **stemming**, and **stopword removal** to clean and standardize the dataset before training.
@@ -27,9 +27,3 @@ This project was developed as a **mini project during my 6th semester**, with th
     - **Precision**
     - **Recall**
     - **F1-Score**
-
----
-
-This format is clean, professional, and easy to read—ideal for technical portfolios or public GitHub repositories.
-
-Would you like help adding this to your actual README file or styling it for LaTeX/PDF as well?
