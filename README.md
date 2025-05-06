@@ -1,29 +1,66 @@
-## Fake News Detection using Machine Learning
+# 🔐 PUF-Based Wi-Fi Authentication & 📰 Fake News Detection Projects
 
-###  Overview
-This project was developed as a **mini project during my 6th semester**, with the goal of detecting fake news using various machine learning models. The primary objective was to build a system that can effectively **differentiate between real and fake news articles** with high accuracy.
+This repository contains two mini projects each addressing a critical domain: **IoT Security** and **Fake News Detection using Machine Learning**.
 
-###  Key Features
+---
 
-- **Data Preprocessing**
-  - Applied techniques such as **tokenization**, **stemming**, and **stopword removal** to clean and standardize the dataset before training.
+## 🛡️ Project 1: PUF-Based Protocol for Wi-Fi Authentication in IoT Devices
 
-- **Feature Extraction**
-  - Used multiple methods to convert text into numerical form, including:
-    - **TF-IDF (Term Frequency-Inverse Document Frequency)**
-    - **Word2Vec**
-    - **Word Embedding**
+### 📖 Overview
 
-- **Model Training**
-  - Trained and evaluated several machine learning models:
-    - **TF-IDF-based classifier**
-    - **BERT (Bidirectional Encoder Representations from Transformers)**
-    - **Word2Vec-based model**
-    - **Word Embedding-based classifier**
+The Internet of Things (IoT) is central to innovations in smart cities, industrial automation, and connected vehicles. However, its rapid growth has raised significant **security and privacy challenges** due to limited computational resources on IoT devices.
 
-- **Performance Evaluation**
-  - Measured performance using standard metrics to validate model reliability:
-    - **Accuracy**
-    - **Precision**
-    - **Recall**
-    - **F1-Score**
+To address these challenges, this project introduces a **PUF-based (Physically Unclonable Function) authentication protocol** that enhances Wi-Fi security, especially during the connection setup phase — a known vulnerability in current wireless standards.
+
+### 🔑 Key Features
+
+- ✅ **Lightweight Protocol**  
+  Designed specifically for resource-constrained IoT devices, ensuring efficient operation with minimal computational and memory overhead.
+
+- 🔒 **Enhanced Security with PUF**  
+  Utilizes PUFs to generate **tamper-resistant and unclonable hardware identities** based on manufacturing variances.
+
+- 🔁 **Multi-Challenge Authentication**  
+  Implements a **three challenge-response pair mechanism** to bolster authentication robustness.
+
+- 📡 **Wi-Fi Integration**  
+  Works alongside existing Wi-Fi protocols to protect against threats like MAC spoofing, rogue access points, and de-authentication attacks.
+
+- 🌐 **Resilience in Unsecured Environments**  
+  Suitable for deployment in insecure or extreme environments with minimal human oversight.
+
+---
+
+## 📰 Project 2: Fake News Detection using Machine Learning
+
+### 📖 Overview
+
+This mini project aims to build a **machine learning-based system** to detect and distinguish fake news from real articles, leveraging state-of-the-art NLP models and evaluation techniques.
+
+### 🔑 Key Features
+
+- 🧹 **Data Preprocessing**  
+  Cleaned and normalized textual data using:
+  - Tokenization  
+  - Stemming  
+  - Stopword removal
+
+- 🧠 **Feature Extraction Techniques**  
+  Represented text numerically using:
+  - TF-IDF  
+  - Word2Vec  
+  - Word Embedding
+
+- 🤖 **Model Training & Evaluation**  
+  Trained multiple ML models including:
+  - TF-IDF-based classifiers  
+  - Word2Vec and Word Embedding models  
+  - BERT for deep contextual understanding  
+  Evaluated using:
+  - Accuracy  
+  - Precision  
+  - Recall  
+  - F1-score
+
+---
+
